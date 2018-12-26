@@ -1,0 +1,58 @@
+/*global css*/
+*{padding:0; margin:0;}
+body{
+	padding: 3px 8px;
+}
+.mycenter{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+/*main css*/
+.full_content{
+	width: 95%;
+    border: 1px solid #226d22;
+    padding: 3px 8px;
+    border-radius: 5px;
+    border-width: 3px;
+}
+.upform input[type=file]{
+	margin-top: 35px;
+    border: transparent;
+    background: #007bff52;
+    border-radius: 5px;
+    padding: 5px;
+	box-shadow: -1px 6px 18px -2.3px #444;
+	background: #d4edda;
+	color: #333;
+}
+.upform input[type=submit]{
+	font-size: 25px;
+	text-align: center;
+	box-shadow: -4px 10px 21px #909090;
+}
+.upform input[type=submit]:hover{
+	box-shadow: -4px 10px 21px #031315;
+	background: #d4edda;
+	border: transparent;
+	color: green;
+}
+
+.logo{
+	width: 240px;
+	height: auto;
+}
+
+@media screen and (max-width: 768px){
+	.upform input[type=file]{
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+		height: 40px;
+	}
+	.upform input[type=submit]{
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+}

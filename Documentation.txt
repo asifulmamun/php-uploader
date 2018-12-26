@@ -1,0 +1,24 @@
+Description:
+---------------
+	File Name	: PHP Uploader
+	Version		: 1.1.0
+	Author		: Al Mamun - (asifulmamun)
+	Author Mail	: asifulmamun@gmail.com
+
+	Limitation	: No Limitation (depend on php.int or max upload size with your hosting.)
+	Upload Type	: Any type
+	Multiselect	: yes
+
+
+----------------
+It's a php uploader for upload any file with your php file in any hosting.
+This file is free or open source for all. This file any user can upload any file without limit. Yes, limit just depend with your php.ini file max size or limit.
+
+
+Process or customization:
+------------------------
+This file download and just need to upload then you need to go file path "upload" and this folder you can see upload.php file. open this file and you can customize or change with your upload file where you want to upload you file.
+..........................
+just change #upload.php
+	$upload_path = '../img/';
+	$upload_path = '/* Any place or directory where you want to send your file. */';
