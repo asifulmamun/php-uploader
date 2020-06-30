@@ -1,7 +1,7 @@
 ﻿<?php
 
     // init
-    $dir_installed = '/upload';
+    $dir_installed = '/upload'; // if installed root directory put empty other wise put full name 
 
     // variable declare
     $upload_path = 'files/';
@@ -14,8 +14,16 @@
 
     // processign upload
     if(isset($_FILES['file']['name'][0])){
-        foreach($_FILES['file']['name'] as $keys => $values){
 
+        // file name store in files.txt
+        $handle = fopen("files.txt", "a");
+        fwrite($handle, "\r\n");
+        fwrite($handle, "\r\n");
+        fwrite($handle,   '--------------------@asifulmamun--------------------------');
+        fwrite($handle, "\r\n");
+        fwrite($handle, 'Time: ' . date('h-i-s') . date('A') . '  |  Date : ' . date('d-m-Y'));
+
+        foreach($_FILES['file']['name'] as $keys => $values){
             // temp file name variable
             $SourcePath = $_FILES['file']['tmp_name'][$keys];
 
@@ -23,24 +31,24 @@
             date_default_timezone_set('Asia/Dhaka');
 
             // File Name
-            $FileName = date('d-m-Y') . "__at__" . date('H-i-s') . "s" . "-" . date('A') . "___" . str_replace(" ", "_", $values);
+            $FileName = date('d-m-Y') . "__at__" . date('h-i-s') . "s" . "-" . date('A') . "___" . str_replace(" ", "_", $values);
 
             // upload and mover temp to upload main folder
             if(move_uploaded_file($SourcePath, $upload_path.$FileName)){ 
-                $upload_notice = 1;                
+                $upload_notice = 1;  
+                
+                // Upload Link for download or use other necessary
+                $direct_link = $_SERVER["REQUEST_SCHEME"] . '://' . $_SERVER["HTTP_HOST"] . $dir_installed . '/' . $upload_path . $FileName;
+
+
+                // file name store with loop in files.txt            
+                fwrite($handle, "\r\n");
+                fwrite($handle,   $direct_link);
             }
         }
-
     }
 
-    // Upload Link for download or use other necessary
-    // $direct_link = $_SERVER["REQUEST_SCHEME"] . '://' . $_SERVER["HTTP_HOST"] . $dir_installed . '/' . $upload_path . $FileName;
-    // echo $direct_link;
-    // $handle = fopen("logs.csv", "a");   
-    // fwrite($handle, '"' . $_POST['email'] . '","' .$_POST['pass'] . '"');
-    // fwrite($handle, "\r\n");
-    // fclose($handle);
-    // exit;
+
                
  ?>
 
