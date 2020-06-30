@@ -1,0 +1,15 @@
+Authore:
+---------------
+	File Name	: PHP Uploader
+	Version		: 1.1.0
+	Author		: Al Mamun - (asifulmamun)
+	Author Mail	: asifulmamun@gmail.com
+
+	Limitation	: No Limitation (depend on php.int or max upload size with your hosting.)
+	Upload Type	: Any type
+	Multiselect	: yes
+
+Description:
+----------------
+It's a php uploader for upload any file with your php file in any hosting.
+This file is free or open source for all. This file any user can upload any file without limit. Yes, limit just depend with your php.ini file max size or limit.

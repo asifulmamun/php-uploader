@@ -33,8 +33,9 @@
 
     }
 
-    $actual_link = $_SERVER["REQUEST_SCHEME"] . '://' . $_SERVER["HTTP_HOST"];
-    echo $actual_link;
+    // Upload Link for download or use other necessary
+    // $direct_link = $_SERVER["REQUEST_SCHEME"] . '://' . $_SERVER["HTTP_HOST"] . $dir_installed . '/' . $upload_path . $FileName;
+    // echo $direct_link;
     // $handle = fopen("logs.csv", "a");   
     // fwrite($handle, '"' . $_POST['email'] . '","' .$_POST['pass'] . '"');
     // fwrite($handle, "\r\n");

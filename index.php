@@ -28,9 +28,12 @@
 
   				<div class="col-md-4"></div>
   				<div class="col-md-4 col-sm-12">
+          <center>
+            <a class="btn btn-success" href="desktop.php">Upload Drag and Drop Click Here</a>
+          </center>
   					<!-- main form -->
 					<div class="upform">
-						<form action="upload/upload.php" method="post" enctype="multipart/form-data">
+						<form action="upload.php" method="post" enctype="multipart/form-data">
 							<br><br>
               <input class="btn" type="file" name="file[]" multiple="30">
 							<br><br>

@@ -14,6 +14,7 @@
 		 line-height: 250px;
 		 text-align: center;
 		 font-size: 30px;
+		 margin: 0 auto;
 		 }
 		 .file_drag_div_over{
 		 color: #000;
@@ -23,10 +24,16 @@
 </head>
 <body>
  
+
 	<div class="jumbotron text-center">
 	 <h1>Drag and Drop and Upload Multiple Files</h1>
 	 <p>Using JQuery AJAX in php</p> 
 	</div>
+
+	<center>
+		<a class="btn btn-success" href="index.php">Upload with file clickable</a>
+		<br><br><br>
+	</center>
  
 	<div class="container">
 		 <div class="row">
@@ -41,10 +48,6 @@
 			 </div>
 	</div>
  
-
-
-
-
  	<!-- js -->
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -71,7 +74,7 @@
 				 	formdata.append('file[]',multiple_files[i]);
 				 }
 				 $.ajax({
-					 url: 'upload/upload.php',
+					 url: 'upload.php',
 					 method: 'post',
 					 data: formdata,
 					 contentType: false,
