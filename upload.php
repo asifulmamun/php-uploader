@@ -66,39 +66,16 @@
     <title>Successfully Uloaded</title>
   </head>
   <body>
-<br>
-    <!-- logo -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-12 text-center mycenter">
-                <img class="logo text-center" src="https://shamimenterprisedhaka.files.wordpress.com/2018/10/se-logo-final.png">
-            </div>
-        </div>
-    </div>
-    <br><br>
 
     <!-- Success Notice -->
     <div class="alert alert-success" role="alert">
-      <p class="text-center">আপনার <b style="color:green;"><?php echo $up_count_file ?>টি</b> ফাইলে আপলোড সম্পন্ন হয়েছে।<br>*** ধন্যবাদ ***<br><small style="color:blue;">আমাদের সাথে যোগাগের জন্য নিচের পদ্ধতিগ্রলো অবলম্বন করতে পারেন...!</small></p>
+      <p class="text-center">
+          Uploaded files. Thank you.
+      </p>
     </div>
     <br>
-
-    <!-- details -->
-    <div class="container">
-        <div class="row">
-           <div class="col-sm-12 text-center">
-                <h3 style="color:green;"><u><i>Designer</i></u></h3>
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FasifulmamunPage&tabs=messages&width=240&height=250&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="240" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                <br>
-                <iframe width="240" height="250" src="https://www.youtube.com/embed/jLG_Wm7B7wc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <br>
-               <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fshamimenterprise.se&tabs=messages&width=240&height=250&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="240" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-           </div> 
-        </div>
-    </div>
-
-
-
+    
+    <center><a class="btn btn-success" href="./">Home</a></center>
 
 
 

@@ -1,6 +1,7 @@
 <center>
     <h1>Download Your file</h1>
     <h4>Developer: <a href="https://asifulmamun.info">Al Mamun - asifulmamun</a></h4>
+    <a href="./../delete.php">Clear All Files</a>
 </center>
 
 <div class="container">
