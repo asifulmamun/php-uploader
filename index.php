@@ -14,15 +14,10 @@
   <body>
   		<div class="container full_content">
   			<div class="row">
-          <div class="col-12 col-md-12 text-center mycenter">
-            <img class="logo text-center" src="https://shamimenterprisedhaka.files.wordpress.com/2018/10/se-logo-final.png">
-          </div>
   				<div class="col-md-12 col-sm-12">
   					<div class="alert alert-success" role="alert">
-              <h4 class="alert-heading">আপনাকে আপলোড করার জন্য স্বাগতম</h4>
-					  	<p style="color:red;">আপলোড করার জন্য প্রথমে ব্রাউজ (browse) এ ক্লিক করে আপনার প্রয়োজনীয় ফাইল চয়েজ করে নিন। তারপর চয়েজ হলে আপলোড বাটনে ক্লিক করে আপলোড করে দিন আমাদের কম্পিউটারে।</p>
-					  <hr>
-					  	<p class="mb-0">আশা করি আপনার ফাইল আপলোড সম্পন্ন হবে। (শামীম এন্টারপ্রাইজ)</p>
+              <h4 class="alert-heading">Welcome To File Uploader</h4>
+					  	<p style="color:red;">Click to browse button for upload and chose all of your files to upload.</p>
 					</div>
   				</div>
 

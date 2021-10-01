@@ -9,17 +9,17 @@ Download or Clone this project from github. You will be found a project folder w
 
 Step-2:
 ------
-Rename this project folder anything or if you want to run this project in root folder just cut and paste all file or upload inner all file into your root folder.
+Open upload.php file
+    - Find the $dir_installed = '/share'; // if installed root directory put empty other wise put full name
+    - Then change the value of '/share' to your directory example if installed root folder put it empty '' or specific folder which name is sample you need to chage it '/share' to '/sample'
+
 
 Step-3:
 ------
-Find upload.php and get init line which is line number 4. change with your directory where you have installed this script.
-If you installed this in root folder you just delete this (upload/) text put it empty.
+    - Create a empty folder name with files
+    - Create a new file name files.txt
 
-# Run
-Go to your domain and upload any file and you can see your uploaded file (installed domain or directory) yourdomain.com/downoload.php
-
-# Customize
-index.php, upload.php and desktop.php you can edit or customize with your requirements. It will not effect anywhre.
+# download
+    Go to yourdomain.com/downlaod for see uploaded files
 
 # Thank You

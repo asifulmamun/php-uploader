@@ -1,11 +1,11 @@
 <center>
-    <h1>Shamim Enterprise</h1>
-    <h4>Developer: <a href="https://facebook.com/asifulmamunPage">Al Mamun - asifulmamun</a></h4>
+    <h1>Download Your file</h1>
+    <h4>Developer: <a href="https://asifulmamun.info">Al Mamun - asifulmamun</a></h4>
 </center>
 
 <div class="container">
 <?php
-$handle = fopen("files.txt", "r");
+$handle = fopen("./../files.txt", "r");
 if ($handle) {
     while (($line = fgets($handle)) !== false) {
         

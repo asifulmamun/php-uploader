@@ -1,7 +1,7 @@
 ﻿<?php
 
     // init
-    $dir_installed = '/upload'; // if installed root directory put empty other wise put full name 
+    $dir_installed = '/share'; // if installed root directory put empty other wise put full name 
 
     // variable declare
     $upload_path = 'files/';
