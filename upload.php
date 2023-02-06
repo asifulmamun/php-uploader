@@ -1,7 +1,7 @@
 ﻿<?php
 
     // init
-    $dir_installed = '/share'; // if installed root directory put empty other wise put full name 
+    $dir_installed = '/php-uploader'; // if installed root directory put empty other wise put full name 
 
     // variable declare
     $upload_path = 'files/';
@@ -34,7 +34,8 @@
             $FileName = date('d-m-Y') . "__at__" . date('h-i-s') . "s" . "-" . date('A') . "___" . str_replace(" ", "_", $values);
 
             // upload and mover temp to upload main folder
-            if(move_uploaded_file($SourcePath, $upload_path.$FileName)){ 
+            if(move_uploaded_file($SourcePath, $upload_path.$FileName)){
+                chmod($upload_path.$FileName, 7777);
                 $upload_notice = 1;  
                 
                 // Upload Link for download or use other necessary

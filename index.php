@@ -40,6 +40,9 @@
   			</div>
         <!-- space -->
         <br><br><br><br><br>
+        <center>
+            <a class="btn btn-success" href="./download/">Download</a>
+          </center>
   		</div>
   		
 
